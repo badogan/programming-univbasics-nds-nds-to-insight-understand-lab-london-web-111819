@@ -11,7 +11,7 @@ end
 
 def print_first_directors_movie_titles
   vm = directors_database
-  binding.pry
+  #binding.pry
   #p vm.length #p vm[0][:movies][0][:title]
   index = 0 
   while index < vm[0][:movies].length do
