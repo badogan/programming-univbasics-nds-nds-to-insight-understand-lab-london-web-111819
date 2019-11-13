@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
   #p vm.length #p vm[0][:movies][0][:title]
   index = 0 
   while index < vm[0][:movies].length do
-    puts vm[0][:movies][i][:title]
+    puts vm[0][:movies][index][:title]
     index +=1
   end
 end
